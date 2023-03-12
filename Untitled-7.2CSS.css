@@ -1,0 +1,154 @@
+body{
+    background-size: r;
+    background-image: url(./whitesand.jpg);
+}
+/*header*/
+div.header{
+    background-image: url(.//triangles.png);
+    ;
+    min-height: 20px;
+    border: solid whitesmoke 2px ;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+    
+
+}
+
+/* profile picture*/
+
+
+img.profilepic{
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 3.5px; 
+}
+
+div.contactdetails{
+      display: flex;
+  padding: 1rem 1rem;
+  vertical-align: middle; 
+  justify-content: unset;
+  font-size: x-large
+  line-height: 8;
+  
+}
+
+img.facebook{
+width:60px;
+height: 60px;
+}
+img.gmail{
+    width:60px;
+    height: 60px;
+}
+img.insta{
+    width:60px;
+    height: 60px;
+}
+img.linkedin{
+    width:60px;
+    height: 60px;
+}
+img.phone{
+    width:60px;
+    height:60px;
+
+}
+img.whatsapp{
+    width:60px;
+    height:60px;
+}
+
+div.whole-content{
+    border: 0px solid black;
+    overflow: hidden;
+
+}
+div.info{
+
+    
+    height: max-content;
+    border: 2px black solid;
+    float: none;
+    margin: 10px;
+    display:flex;
+    margin-block-end: 6px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px 50px 50px 50px;
+}
+div#first{
+    color: black;    float: left;
+    width: 120px;
+    height: 100px;
+
+}
+div#second{
+  color: black;
+   
+
+}
+div#third{
+    color: black;
+}
+div#fourth{
+    color: black;
+
+}
+
+div.form{
+    margin-left: 100px;
+    display: flex;
+    float: right;
+}
+
+div.name-title{
+    
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: x-large;
+}
+div.content{
+    height: fit-content;
+
+}
+
+.h2{
+    font-size: medium;
+}
+
+div.rhd-content{
+    margin-left: 70px;
+}
+
+@media screen and (max-width:430) {
+    
+    div.name-title{
+        font: small;
+    }
+
+    .h2{
+        font-size:x-small
+
+    }
+    img.profile.pic{
+        size: 40%;
+    }
+}
+
+@media screen and (max-width:700) {
+    
+    div.name-title{
+        font:medium;
+    }
+
+    .h2{
+        font-size:medium
+
+    }
+    img.profile.pic{
+        size: 65%;
+    }
+}
